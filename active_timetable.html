@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Active Timetable</title>
+    <link rel="stylesheet" type="text/css" href="css/timetable.css">
+</head>
+<body>
+    <script src="scripts/timetabledata.js"></script>
+    <script src="scripts/timetable.js"></script>
+
+    <h1>Rehalp - Stadelhofen</h1>
+
+    <div class="fahrplandiv">
+        <div class="fahrplaninfo">
+            <span id="fahrplan1" class="qwe"></span>
+        </div>
+    </div>
+
+    <div class="clockdiv">
+        <div>
+            <span id="nextType1">
+            </span>
+            <div class="smalltext">Id</div>
+        </div>
+        <div>
+            <span id="nextDays1" class="days"></span>
+            <div class="smalltext">Days</div>
+        </div>
+        <div>
+            <span id="nextHours1" class="hours"></span>
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+            <span id="nextMinutes1" class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+            <span id="nextSeconds1" class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+        </div>
+        <div id="debug1" class="smalltext">
+        </div>
+    </div>
+
+
+    <div class="fahrplandiv">
+        <div class="fahrplaninfo">
+            <span id="fahrplan2"></span>
+        </div>
+    </div>
+
+    <div class="clockdiv">
+        <div>
+            <span id="nextType2">
+            </span>
+            <div class="smalltext">Id</div>
+        </div>
+        <div>
+            <span id="nextDays2" class="days"></span>
+            <div class="smalltext">Days</div>
+        </div>
+        <div>
+            <span id="nextHours2" class="hours"></span>
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+            <span id="nextMinutes2" class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+            <span id="nextSeconds2" class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+        </div>
+        <div id="debug2" class="smalltext">
+        </div>
+    </div>
+
+    <div class="fahrplandiv">
+        <div class="fahrplaninfo">
+            <span id="fahrplan3"></span>
+        </div>
+    </div>
+    <div class="clockdiv">
+        <div>
+            <span id="nextType3">
+            </span>
+            <div class="smalltext">Id</div>
+        </div>
+        <div>
+            <span id="nextDays3" class="days"></span>
+            <div class="smalltext">Days</div>
+        </div>
+        <div>
+            <span id="nextHours3" class="hours"></span>
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+            <span id="nextMinutes3" class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+            <span id="nextSeconds3" class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+        </div>
+        <div id="debug3" class="smalltext">
+        </div>
+    </div>
+
+    <div id="additionalInfo">
+        Hi
+    </div>
+
+
+
+    <p id="demo"></p>
+    <p id="interval"></p>
+
+    <script>
+
+        //main
+        (function () {
+            doStuff();
+            //xxx = pad(4, 6);
+            //document.getElementById("demo").innerHTML += "bla";
+            //document.getElementById("demo").innerHTML += xxx;
+        })();
+    </script>
+
+</body>
+</html>

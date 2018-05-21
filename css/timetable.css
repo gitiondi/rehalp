@@ -1,0 +1,87 @@
+﻿body {
+    text-align: center;
+    background: #b3b3b3;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    color: #737373;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+
+.clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin: inherit;
+    padding: 0 0 15px 0;
+}
+
+    .clockdiv > div {
+        padding: 10px;
+        border-radius: 3px;
+        background: #999999;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .clockdiv div > span {
+        padding: 15px;
+        border-radius: 3px;
+        background: #737373;
+        display: inline-block;
+    }
+
+.fahrplandiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 100%;
+    margin: inherit;
+}
+
+    .fahrplandiv > div {
+        padding: 10px;
+        border-radius: 3px;
+        background: #999999;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .fahrplandiv div > span {
+        padding: 5px 15px 5px 15px;
+        border-radius: 3px;
+        background: #737373;
+        display: inline-block;
+    }
+
+
+div.fahrplandiv div.fahrplaninfo .elfer {
+    background-color: #00892F;
+}
+
+div.fahrplandiv div.fahrplaninfo .frida {
+    background-color: #EB3C2E;
+}
+
+div.clockdiv div .elfer {
+    background-color: #00892F;
+}
+
+div.clockdiv div .frida {
+    background-color: #EB3C2E;
+}
+
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
